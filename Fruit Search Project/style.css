@@ -13,7 +13,7 @@ body {
   background-image: linear-gradient(to bottom right, red, yellow);
 }
 
-input {
+inputBox {
   flex: 1;
   height: 50px;
   background: transparent;
@@ -35,7 +35,8 @@ input {
 }
 .search-container input,
 .search-container .suggestions {
-  /* TODO */
+  max-height: 300px;
+  overflow-y: scroll;
 }
 .search-container input {
  /* TODO */
