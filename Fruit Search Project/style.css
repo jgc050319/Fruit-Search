@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-:focus {
- /* TODO */
-}
-
 body {
   background-image: linear-gradient(to bottom right, red, yellow);
 }
@@ -38,32 +34,22 @@ inputBox {
   max-height: 300px;
   overflow-y: scroll;
 }
-.search-container input {
- /* TODO */
-}
-.search-container .suggestions {
-
-}
 
 .suggestions ul {
   border-top: 1px solid #999;
   padding: 15px 10px;
-}
-ul.has-suggestions {
-  /* TODO */
 }
 .suggestions li {
   list-style: none;
   border-radius: 3px;
   padding: 15px 10px;
 }
-.suggestions li:hover {
-  background: #e9f3ff;
-}
 
-input {
-  /*TODO*/
-}
 ::placeholder{
-  color: brown;
+  color: rgb(29, 158, 149);
+}
+li:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+  color: aqua;
 }
